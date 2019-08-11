@@ -1,0 +1,62 @@
+.tripList{
+  display: flex;
+  align-items:flex-end;
+  margin-top: 20px;
+  .flexItem{
+    flex: 1;
+    text-align: center;
+    color: #108de7;
+    .numb{
+      margin: 6px 0;
+      .numWrap{
+        display: inline-block;
+        background: #fff;
+        padding: 0 20px;
+        z-index: 10;
+        position: relative;
+        .num{
+          cursor: pointer;
+          width: 100px;
+          overflow: hidden;
+        }
+      }
+    }
+    .desc{
+      margin-bottom: 10px;
+    }
+  }
+  .active{
+   border-bottom: none;
+  }
+  .open{
+    border-bottom: 4px solid #108de7;
+    border-radius: 2px;
+    padding-bottom: 10px;
+  }
+  position: relative;
+  &:after{
+    position: absolute;
+    content: "";
+    bottom: 70px;
+    width: 100%;    
+    border-top: 8px solid #ebebeb;
+    border-radius: 10px;
+  }
+}
+ .tripSeeMore{
+   margin: 10px;
+   color: #333;
+   font-size: 12px;
+    .item{
+      .name{
+        text-align: left;
+      }
+      :global{
+        button{
+          margin-right: 10px;
+          font-size: 12px;
+          border-radius: 20px;
+        }
+      }
+    }
+  }

@@ -1,0 +1,32 @@
+.tagTree {
+  width: 100%;
+}
+
+.leafTitle {
+  font-weight: bold;
+}
+
+.leafPeriod {
+  position: absolute;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.leafDelete {
+  position: absolute;
+  margin-left: 150px;
+  display: inline-block;
+  z-index: 100;
+}
+
+:global .noCheckbox > span.ant-tree-checkbox {
+  display: none;
+}
+
+:global .hasCheckbox > span.ant-tree-checkbox {
+  padding-top: 4px;
+  margin-left: 300px !important;
+  position: absolute;
+  display: inline-block;
+}
+

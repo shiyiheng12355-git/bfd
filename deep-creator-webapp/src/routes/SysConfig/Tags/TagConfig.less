@@ -1,0 +1,29 @@
+.ProductConfing{
+  padding: 0 20px;
+  .tagipt{
+    width: 200px;
+    margin-right: 10px;
+  }
+  .tagRow{
+    margin-top: 20px;
+  }
+  .btnGroups{
+    margin: 50px 0 20px 0;
+    padding: 20px 2px;
+    :global(button){
+      margin-right: 10px;
+    }
+  }
+  :global(.ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected) {
+    background-color: #fff;
+  }
+  :global(.ant-tree li .ant-tree-node-content-wrapper:hover){
+    background-color: #fff;
+  }
+}
+:global(.noneEvent .ant-select-tree-node-content-wrapper-open){
+  pointer-events: none;
+}
+:global(.noneEvent .ant-select-tree-node-content-wrapper-close){
+  pointer-events: none;
+}

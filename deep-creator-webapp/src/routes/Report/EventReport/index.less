@@ -1,0 +1,294 @@
+
+.insertstep {
+    position: absolute;
+    right: 10px;
+    bottom: -35px;
+    color: red;
+}
+.deletefunnel {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: red;
+    border: solid 1px #d9d9d9;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 30px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.echelon-list{
+    position: relative;
+    margin-bottom: 40px;
+    .echelon-list-after{
+        content: "";
+        position: absolute;
+        border-left: dashed 1px #cecece;
+        height: 60px;
+        left: 62.4%;
+        bottom: -50px;
+    }
+}
+.kpt {
+    position: absolute;
+    top: 103px;
+    left: 325px;
+    i {
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: 8px;
+        vertical-align: top;
+    }
+}
+.add-Name{
+    label{
+        display: block;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    h2{
+        font-size: 16px;
+    }
+}  
+.is-stride{
+    position: absolute;
+    right: 0;
+    bottom: -45px;
+}    
+
+.echelon {
+    border-top: 90px solid #ddd;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 530px;
+    position: relative;
+    margin: 0 auto;
+    .echelon-show,
+    .echelon-add{
+        position: absolute;
+        top:-90px;
+        height: 90px;
+        width: 100%;
+        left: 0;
+    }
+    .echelon-show{
+        padding: 5px 20px;
+        color: #999;
+        font-size: 12px;
+        .echelon-close-circle{
+            position: absolute;
+            top:10px;
+            right: -7px;
+            font-size: 20px;
+            color: #999;
+            cursor: pointer;
+        }
+        .echelon-smile{
+            float: left;
+            width: 56px;
+            height: 80px;
+            line-height: 80px;
+            font-size: 50px;
+            margin:0 25px;
+            color: #999;
+        }
+        h4{
+            float: left;
+            line-height: 32px;
+            height: 32px;
+            font-size: 14px;
+            margin:3px;
+            width: 270px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        p{  
+            float: left;
+            width: 270px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 5px
+        }
+    }
+    .echelon-add{
+        i{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            font-size: 50px;
+            line-height: 56px;
+            margin:-28px 0 0 -28px;
+            width: 56px;
+            height: 56px;
+            color: #ddd;
+        }
+    }
+}
+.echelon:hover {
+    //cursor: pointer;
+    border-top: 90px solid #2778be;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    position: relative;
+}
+.echelon:before {
+    content: "";
+    position: absolute;
+    border-top: 88px solid #f8f8f8;
+    border-left: 49px solid transparent;
+    border-right: 49px solid transparent;
+    height: 0;
+    width: 526px;
+    top: -89px;
+    left: -48px;
+}
+.tanchu {
+    margin-left: 95px;
+    .action-hang:before {
+        content: "";
+        position: absolute;
+        border-bottom: dashed 1px #cecece;
+        width: 35px;
+        bottom: 15px;
+        left: 0;
+    }
+    .params-left {
+        :global(.ant-select-selection--single) {
+            height: 30px;
+        }
+        width: 105px;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+    
+    .params-right {
+        :global(.ant-select-selection--single) {
+            height: 30px;
+        }
+        width: 85px;
+        vertical-align: middle;
+    }
+    .url-right {
+        width: 128px;
+        vertical-align: middle;
+        li {
+          margin: 0 !important;
+        }
+    }
+    .behavior-combination-con {
+        border-left: dashed 1px #cecece;
+        position: relative;
+        padding-bottom: 40px;
+        :global{
+            .ant-input-number{
+                height: 32px;
+                vertical-align: top;
+                .ant-input-number-input{
+                    height: 28px;
+                }
+            }
+        }
+        .shou{
+            position: absolute;
+            height: 32px;
+            line-height: 32px;
+            left: -20px;
+            top: 0;
+            background: #FFF;
+        }
+        .eventwidth{
+            width: 380px;
+            margin-left: 40px;
+        }
+        .add-hang {
+            position: relative;
+            .add-hang-k {
+                margin-left: 29px;
+                margin-top: 20px;
+                .bfd-input {
+                    width: 135px;
+                }
+                .bfd-select-dropdown--caretable {
+                    min-width: 0;
+                    margin-right: 10px;
+                    width: 100px;
+                }
+                .width100 {
+                    width: 100px;
+                }
+                .width50 {
+                    width: 50px;
+                }
+                .lianjie {
+                    font-size: 14px;
+                    display: inline-block;
+                    i {
+                        padding-top: 7px;
+                    }
+                }
+                .lajitong {
+                    color: #999;
+                    font-size: 14px;
+                    margin-left: 10px;
+                    display: inline-block;
+                }
+            }
+            .add-hang-k:before {
+                content: "";
+                position: absolute;
+                border-bottom: dashed 1px #cecece;
+                width: 35px;
+                bottom: 15px;
+                left: 0;
+            }
+            .qie2 {
+                position: absolute;
+                bottom: -1px;
+                left: -40px;
+            }
+        }
+        .qie2 {
+            position: absolute;
+            bottom: -15px;
+            left: -40px;
+        }
+        .add-sj {
+            color: #2778be;
+            position: absolute;
+            bottom: -8px;
+            left: 80px;
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+    .p-t50 {
+        padding-top: 50px;
+        text-align: center;
+    }
+    .behavior-combination-con:before {
+        content: "";
+        position: absolute;
+        border-bottom: dashed 1px #cecece;
+        width: 35px;
+        bottom: 0;
+        left: 0;
+    }
+    .action-hang{
+        margin-top: 20px;
+        .params-left{
+            margin-left: 65px;
+        }
+        .shou{
+            left: 30px;
+        }
+    }
+}

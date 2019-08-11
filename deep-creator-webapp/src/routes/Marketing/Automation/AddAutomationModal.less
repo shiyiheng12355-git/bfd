@@ -1,0 +1,77 @@
+.title {
+    color: #ffffff;
+    margin: 24px 0px 4px 0px;
+}
+
+.containner {
+  overflow-x: scroll; // padding: 24px；
+   :global {
+      .node-container {
+          width: 70px;
+          height: 80px;
+          border: 1px solid #999;
+          border-radius: 6px;
+          overflow: hidden;
+      }
+      .node-container .node-container-title {
+          padding-left: 10px;
+          line-height: 48px;
+          height: 60px;
+      }
+      .node-container .node-container-success {
+          background: #228ACC;
+      }
+      .node-container .node-container-fail {
+          background: #FF0030;
+      }
+      .node-container .node-container-list {
+          background: white;
+          padding-left: 10px;
+          height: 40px;
+          line-height: 40px;
+      }
+      .node-container .node-delete {
+          position: absolute;
+          top: 4px;
+          right: 4px;
+          z-index: 10;
+          /* 使得该元素z层级大于最上层canvas */
+      }
+      .node-container .node-detail {
+          position: absolute; // top: 4px;
+          // right: 4px;
+          z-index: 10;
+          /* 使得该元素z层级大于最上层canvas */
+      }
+      .node-container .node-detail-info {
+          z-index: 10;
+          /* 使得该元素z层级大于最上层canvas */
+      }
+  }
+}
+
+.siderBar {
+  text-align: center;
+
+  .title {
+    color: white;
+    text-align: left
+  }
+
+  .rhombusBtn {
+    color: white;
+    width: 70px;
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    background: url('../../../assets/imgs/diamond_70px.png')
+  }
+
+  .circleBtn {
+    width: 70px;
+    line-height: 26px;
+    height: 26px;
+    position: relative;
+    background: url('../../../assets/imgs/button.png')
+  }
+}

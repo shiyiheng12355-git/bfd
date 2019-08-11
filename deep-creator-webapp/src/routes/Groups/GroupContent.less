@@ -1,0 +1,58 @@
+.content{
+  :global{
+   
+    .ant-list-item>.ant-list-item-content{
+      width:100%
+    }
+    .ant-card{
+      width:100%
+    }
+    .ant-card-actions > li{
+      width:inherit!important;
+    }
+    
+  }
+  margin-top:20px;
+  a{
+    font-size: 12px;
+    text-decoration: underline;
+  }
+  a:hover{
+    color:#1890ff
+  }
+  .card{
+    // display: -webkit-flex; 
+    display: flex; 
+    // display: -webkit-box;
+    // display: -moz-box;   
+    // display: -ms-flexbox; 
+    align-items: center;
+    overflow: hidden;
+    p{
+      width:160px;
+      height:100px;
+      margin-bottom:0;
+      background-image: url('../../assets/imgs/group_cover.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+    p:hover{
+      cursor: pointer;
+    }
+    ul{
+      margin-bottom:0;
+      padding-left:30px;
+      // -webkit-flex: 1;
+      // -ms-flex: 1 ; 
+      // flex: 1;
+      // -webkit-box-flex: 1;   
+      // -moz-box-flex: 1;                 
+    }
+    ul>li{
+      list-style: inherit;
+      word-break: break-all;
+    }
+  }
+
+}

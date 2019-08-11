@@ -1,0 +1,27 @@
+::-webkit-scrollbar
+{
+  width: 7px;
+  height:7px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.4);
+  margin-right: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: #CCC;
+  opacity: .8;
+
+}
+:global{
+  .ant-menu-inline-collapsed > .ant-menu-item .anticon + span, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .anticon + span, .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon + span {
+    display: none;
+  }
+}

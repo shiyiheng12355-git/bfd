@@ -1,0 +1,83 @@
+@import "~antd/lib/style/themes/default.less";
+@import "../../../../utils/utils.less";
+
+.editableCell {
+  position: relative;
+}
+
+.editableCellInputWrapper,
+.editableCellTextWrapper {
+  padding-right: 24px;
+}
+
+.editableCellTextWrapper {
+  padding: 5px 24px 5px 5px;
+}
+
+.editableCellIcon,
+.editableCellIconCheck {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  cursor: pointer;
+}
+
+.editableCellIcon {
+  line-height: 18px;
+  display: none;
+}
+
+.editableCellIconCheck {
+  line-height: 28px;
+}
+
+.editableCell:hover .editableCellIcon {
+  display: inline-block;
+}
+
+.editableCellIcon:hover,
+.editableCellIconCheck:hover {
+  color: #108ee9;
+}
+
+.editableAddBtn {
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: @screen-lg) {
+  .salesExtra {
+    display: none;
+  }
+
+  .rankingList {
+    li {
+      span:first-child {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: @screen-md) {
+  .rankingTitle {
+    margin-top: 16px;
+  }
+
+  .salesCard .salesBar {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: @screen-sm) {
+  .salesExtraWrap {
+    display: none;
+  }
+
+  .salesCard {
+    :global {
+      .ant-tabs-content {
+        padding-top: 30px;
+      }
+    }
+  }
+}

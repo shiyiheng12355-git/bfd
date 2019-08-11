@@ -1,0 +1,35 @@
+@import "~antd/lib/style/themes/default.less";
+
+.MaSelect {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  .selectModal {
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    padding: 16px;
+    width: 90%;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 3px 3px 1px 1px #e8e8e8;
+    z-index: 9999;
+    :global {
+      .ant-checkbox-group {
+        display: inline-block;
+      }
+    }
+    .checkGroup {
+      display: inline-block;
+      padding-bottom: 16px;
+    }
+    .checkGroup:first-child {      
+      border-bottom: 1px dashed #b8b4b4;
+    }
+    .onOK {
+      margin-right: 8px;
+    }
+    .tips {
+      margin-top: 4px;
+    }
+  }
+}

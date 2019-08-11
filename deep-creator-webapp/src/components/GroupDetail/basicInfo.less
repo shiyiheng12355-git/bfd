@@ -1,0 +1,88 @@
+.basic{
+  :global{
+    .ant-checkbox-wrapper + .ant-checkbox-wrapper{
+      margin-left:5px;
+    }
+    .ant-checkbox-wrapper{
+      margin:5px;
+    }
+    .ant-tag-blue{
+      height:auto;
+      white-space: normal;
+      >.ant-tag-text{
+      white-space: initial;      
+      }
+    }
+  }
+  // display: -webkit-box;
+  // display: -moz-box;   
+  // display: -ms-flexbox; 
+  // display: -webkit-flex; 
+  display: flex; 
+  min-height: 300px;
+  border: 1px solid #e8e8e8;
+  border-top: none;
+  .left{
+    width:50%;
+    min-height:inherit;
+    border-right: 1px solid #e8e8e8;
+    .top{
+      position: relative;
+      height:15%;
+      padding:10px;
+      .regular{
+        position: absolute;
+        top: 35px;
+        width: 97%;
+        background: #f1f1f1;
+        padding: 10px 0px 10px 5px;
+        border-radius: 5px;
+        max-height:75px;
+        overflow: auto;
+      }
+    }
+    .bottom{
+      // display: -webkit-flex; 
+      display: flex; 
+      // display: -webkit-box;
+      // display: -moz-box;   
+      // display: -ms-flexbox; 
+      
+      
+      height:85%;
+      align-items: center;
+      .groupimage{
+        flex-shrink: 0;
+        width:50%;
+        height:88%;
+        background-image: url('../../assets/imgs/group_cover.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+      .ulList{
+        // -webkit-flex: 1;
+        // -ms-flex: 1 ; 
+        // flex: 1;
+        // -webkit-box-flex: 1;   
+        // -moz-box-flex: 1;
+        padding-left:0;
+      }
+      ul>li{
+        list-style: inherit;
+      }
+    }
+  }
+  .right{
+    width:50%;
+    .top{
+      margin:5px;
+      display:flex;
+      justify-content: flex-end;
+    }
+    .tag{
+      padding:10px;
+    }
+  }
+  
+}

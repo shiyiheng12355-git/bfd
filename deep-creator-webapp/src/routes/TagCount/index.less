@@ -1,0 +1,41 @@
+.tagCount{
+    //width:90%;
+    padding:10px;
+    .contentTop{
+        text-align: center;
+        height:240px;
+    }
+    .echartGroup{
+        width:100%;
+        text-align: center;
+        display:flex;
+        
+        .chart{
+            width: 100%;
+            height: 230px;
+            flex:1;
+            justify-content: space-around;
+        }
+        .chart:not(:first-child){
+            margin-left: 20px;
+        }
+    }
+    :global{
+        .ant-carousel .slick-slide {
+            text-align: center;
+            width:100%;
+            overflow: hidden;
+            height:240px;
+          }
+    
+          .ant-carousel .slick-slide img {
+            max-width:  1100px;
+            height: 230px;
+            display: inline-block;
+          }
+          .ant-carousel .slick-dots li.slick-active button {
+            background: #108EE9;
+        }
+    }
+
+}

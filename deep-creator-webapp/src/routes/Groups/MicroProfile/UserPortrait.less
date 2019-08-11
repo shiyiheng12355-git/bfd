@@ -1,0 +1,124 @@
+.userPortrait{
+  text-align: center;
+  width: 100%;
+  display: block;
+  height: 100%;
+  :global{
+      .userGraph{
+          width: 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-position-x: center;
+          background-position-y: center;
+          background-size: contain;
+          display: block;
+          height: 100%;
+  
+      }
+      .unknown{
+          background-image: url(/imgs/unknown.png);
+      }
+      .man{
+          background-image: url(/imgs/man.png);
+      }
+      .woman{
+          background-image: url(/imgs/woman.png);
+      }
+      .product{
+          background-image: url(/imgs/product.png);
+      }
+      .text-overflow{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+      }
+      
+  }
+  :global{
+      .ant-tag{
+        margin-right: 0px
+      }
+      // .list.fullTag{
+      //   .ant-tag, .ant-tag a, .ant-tag a:hover {
+                   
+      //   }
+      // }
+      .list{
+        width: 100%;
+        // background-color: #eee;
+        padding: 4px 8px;
+        border-radius: 5px;
+        
+        .ant-tag, .ant-tag a, .ant-tag a:hover {
+          color: rgba(0, 0, 0, 0.65);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+         
+          background: #e6f7ff;
+          border: 1px dashed #0ab7c5;
+          font-size: 15px;
+          line-height: 24px;
+          height: 27px;
+          i{
+            font-style: normal;
+          }
+          b{
+           font-weight: normal;
+          }
+        }
+        .tagValue{
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space: nowrap;
+          margin: 0px 5px;
+          border: 1px dashed #0AB7C5;
+          padding: 5px 4px;
+          border-radius: 5px;
+          background-color: #E6F8FA;
+          i{
+            font-style: normal;
+          }
+          b{
+           font-weight: normal;
+          }
+        }
+      }
+      .left{
+        left:0%;
+      }
+      .right{
+        right:0%;
+      }
+      .list.left{
+        .ant-tag{
+          margin-right:8px; 
+        }
+      }
+      .list.right{
+        .ant-tag{
+          margin-left:8px; 
+        }
+      }
+      .list.left.list0,.list.right.list1 {
+        position: absolute;
+        top: 51%;
+        width: 83%;
+      }
+      .list.left.list2,.list.right.list3{
+        position: absolute;
+        top: 28%;
+        width: 83%;
+      }
+      .list.left.list4,.list.right.list5 {
+        position: absolute;
+        top: 74%;
+        width: 87%;
+      }
+      .list.left.list6,.list.right.list7{
+        position: absolute;
+        top: 5%;
+        width: 88%;
+      }
+    }
+}

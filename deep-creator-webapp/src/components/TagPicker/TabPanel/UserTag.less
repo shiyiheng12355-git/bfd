@@ -1,0 +1,62 @@
+
+.usertag{
+  :global{
+    .ant-tree{
+      max-height: 400px;
+      overflow: auto;
+    }
+    .ant-tree-checkbox-disabled{
+      display: none!important;
+     
+    }
+    .ant-tree li .ant-tree-node-content-wrapper{
+      cursor: inherit!important;
+    }
+    .ant-tree li .ant-tree-node-content-wrapper:hover {
+      background: none!important;
+    }
+  }
+  
+  //查询样式
+  .global-search-wrapper {
+    padding-right: 50px;
+
+    .global-search {
+      width: 100%;
+    }
+
+    .global-search.ant-select-auto-complete .ant-select-selection--single {
+      margin-right: -46px;
+    }
+    
+    .global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input:not(:last-child) {
+      padding-right: 62px;
+    }
+    
+ 
+    
+    .global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix button {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    
+    .global-search-item-count {
+      position: absolute;
+      right: 16px;
+    }
+  }
+  //查询样式
+  :global{
+    .ant-input-affix-wrapper .ant-input-suffix {
+      right: 0;
+    }
+    .ant-select-auto-complete.ant-select-lg .ant-input {
+      height: 28px;
+    }
+    .ant-input-affix-wrapper .ant-input-suffix :not(.anticon) {
+      height: 28px;
+    }
+  }
+  
+
+}

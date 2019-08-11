@@ -1,0 +1,205 @@
+.funnel {
+  background: #FFF;
+  border-radius: 3px;
+  padding: 5px 0;
+  .bt {
+    min-height: 45px;
+    margin-bottom: 20px;
+  }
+  h2{
+    color: #666;
+    padding: 14px 0 15px 24px;
+    font-size: 14px;
+    float: left;
+	}
+  .main-mid-head {
+    display: inline-block;
+    float: right;
+    margin-top:10px;
+    margin-right: 30px;
+    .bfd-btn {
+      height: 40px;
+      font-size: 14px;
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+  .padding20 {
+    padding: 0 20px;
+  }
+  .page-new{
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    padding: 20px; margin: 0 30px 30px 30px; border-radius: 2px; text-align: center;
+  }
+  .nodata{
+      .page-new;
+      color: black;
+      font-size: 20px;
+      text-align: center;
+  }
+  .eachfunel-left {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+  }
+  .eachfunel {
+    position: relative;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 10px 20px 10px;
+    border-radius: 2px;
+    height: 550px;
+    overflow: auto;
+    .eachfunel-bt {
+      position: relative;
+      h4 {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        color: #333333;
+        margin-bottom: 20px;
+      }
+      .eachfunel-fun {
+        position: absolute;
+        right: 0;
+        top: 0;
+        i {
+          float: right;
+          font-size: 20px;
+          color: #666;
+          margin-left: 15px;
+        }
+        label {
+          margin-right: 20px;
+        }
+        .bfd-switch input:checked + .bfd-switch__text {
+          background-color: #2778be;
+        }
+      }
+    }
+
+    .main-contaner-table {
+      display: table;
+      padding: 20px 10%;
+      height: 450px;
+      width: 100%;
+      .main-contaner {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+      .fa-long-arrow-down {
+        font-size: 30px;
+      }
+      .eachfunel-list {
+        position: relative;
+        margin-bottom: 5px;
+        height: 0;
+        border-top-style: solid;
+        border-top-width: 45px;
+        border-left: 18px solid transparent;
+        border-right: 18px solid transparent;
+        margin-left: auto;
+        margin-right: auto;
+        .eachfunel-list-font {
+          margin: -45px auto 0 auto;
+          text-align: center;
+          width: 80%;
+          h5 {
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            line-height: 18px;
+            text-align: center;
+            margin-top: 13px;
+            font-size: 12px;
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+          }
+          p {
+            margin: 0;
+            padding: 0;
+            line-height: 18px;
+            span {
+              margin-right: 10px;
+              i {
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+      .eachfunel-list01 {
+        border-top-color: #01457C;
+      }
+      .eachfunel-list02 {
+        border-top-color: #184F7C;
+      }
+      .eachfunel-list03 {
+        border-top-color: #1c65a4;
+      }
+      .eachfunel-list04 {
+        border-top-color: #2778be;
+      }
+      .eachfunel-list05 {
+        border-top-color: #4190d5;
+      }
+      .eachfunel-list06 {
+        border-top-color: #5da5e3;
+      }
+      .eachfunel-list07 {
+        border-top-color: #84bdef;
+      }
+      .eachfunel-list08 {
+        border-top-color: #99c9f3;
+      }
+      .eachfunel-list-width01 {
+        width: 100%;
+      }
+      .eachfunel-list-width02 {
+        width: 95%;
+      }
+      .eachfunel-list-width03 {
+        width: 90%;
+      }
+      .eachfunel-list-width04 {
+        width: 85%;
+      }
+      .eachfunel-list-width05 {
+        width: 80%;
+      }
+      .eachfunel-list-width06 {
+        width: 75%;
+      }
+      .eachfunel-list-width07 {
+        width: 70%;
+      }
+      .eachfunel-list08 {
+        width: 65%;
+      }
+
+    }
+    .eachfunel-footer {
+      color: #999;
+      font-size: 12px;
+      text-align: right;
+    }
+  }
+  @media screen and (max-width:1100px){
+    .eachfunel-left{ width: 100%; }
+  }
+  @media screen and (min-width:1100px) and (max-width:1366px){
+    .eachfunel {
+      .main-contaner-table {
+        padding: 20px 10px;
+      }
+    }
+  }
+}

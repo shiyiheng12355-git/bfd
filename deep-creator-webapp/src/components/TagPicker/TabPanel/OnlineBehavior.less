@@ -1,0 +1,79 @@
+
+.onlineBehavior{
+  .form{
+    max-height:250px;
+    overflow: auto;
+  }
+  :global{
+    .ant-radio-button-wrapper::before{
+      width:0
+    }
+    .ant-select-dropdown-menu{
+      max-height:150px!important;
+    }
+    .ant-input-group-addon{
+      border:none;
+      background-color: #fff;
+    }
+    .ant-form-item-control-wrapper{
+      height:39px;
+    }
+    .ant-tag-red{
+      background: none;
+      border:none;
+    }
+    .ant-form-item{
+      margin: 0 0 12px 0;
+    }
+    .ant-row.ant-form-item.paramList{
+      .ant-form-item-label{
+        overflow:inherit;
+        label:before{
+          content:'';
+          position: absolute;
+          left: -21px;
+          top: 8px;
+          width:20px;
+          height:40px;
+          border-left: dashed 1px #888888;
+          border-top: dashed 1px #888888;
+        }
+      }
+    }
+  }
+  .join{
+    display: flex;
+    justify-content: center;
+  }
+  .addParams{
+    margin-left: 15px;
+  }
+  .addParams:visited{
+    text-decoration: none;
+  }
+  .addParams:hover{
+    text-decoration: none;
+  }
+  .addParams:active{
+    text-decoration: none;
+  }
+  .addParams:link{
+    text-decoration: none;
+  }
+  .andOrBtn{
+    position:relative;
+    padding:4px;
+    cursor: pointer;
+    border:1px solid #d9d9d9;
+    border-radius:3px;
+  }
+  .andOrBtn:after{
+    content:'';
+    position: absolute;
+    left: 64px;
+    bottom: 11px;
+    width: 18px;
+    border-top:dashed 1px #888888;
+  }
+  
+}

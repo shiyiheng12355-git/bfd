@@ -1,0 +1,42 @@
+export const getResource = [{
+	      id: 1,
+	      name: '标签管理',
+	      rtype: '一级菜单',
+	      rvalue: '1',
+	      desc: '标签的查看与管理',
+	      url: 'www.asdasdasd.com',
+	      type: '系统内置',
+	      key: '',
+	      children: [{
+	        id: 11,
+	        name: '用户标签管理',
+	        rtype: '二级菜单',
+	        rvalue: '2',
+	        desc: '用户标签体系的管理',
+	        url: 'www.asdasdasd.com',
+	        type: '系统内置',
+	        key: '',
+	        children: [{
+	          id: 111,
+	          name: '编辑模式',
+	          rtype: '按钮',
+	          rvalue: 'btn',
+	          desc: '进入用户标签编辑模式',
+	          url: 'www.asdasdasd.com',
+	          type: '系统内置',
+	          key: '001',
+	          children: [{
+	            id: 1111,
+	            name: '新增一级分类',
+	            rtype: '按钮',
+	            rvalue: 'btn',
+	            desc: '新增一级分类标签',
+	            url: 'www.asdasdasd.com',
+	            type: '系统内置',
+	            key: '002',
+	          }],
+	        }],
+	      }],
+	    }];
+
+export default { getResource };

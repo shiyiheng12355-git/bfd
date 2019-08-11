@@ -1,0 +1,65 @@
+.TreeTransfer{
+    :global(.ant-tree){
+        font-size: 12px;
+    }
+    font-size: 12px;
+    overflow: hidden;
+    min-height: 50px;
+    .checkIcon{
+        position: relative;
+        color: #999;
+        
+        .checkCon{
+            border: 1px solid #EFEFEF;
+            top:0;
+            left: -28px;
+            position: absolute;
+            width: 56px;
+            border-radius: 30px;
+            height: 24px;
+            text-align: center;
+            background:#FFF;
+            line-height: 22px;
+        }
+        .checkCon strong{
+            font-weight: 400;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+    }
+    .TreeTransferRight{
+        font-size: 12px;
+        line-height: 25px;
+        margin-left: 110px;
+        
+        dt,dd{
+            height: 25px;
+        }
+        dd{
+            margin-left: 25px;
+        }
+        b{
+            float: left;
+            height: 10px;
+            width: 10px;
+            margin: 8px 5px 0 0;
+            background: #108EE9;
+            border-radius: 100%;
+        }
+    }
+
+    :global{
+      .ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner{
+        background-color: #108ee9;
+        border-color: #108ee9;
+      }
+  
+      .ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner:after{
+        border: 2px solid #fff;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        transform: translate(-50%, -75%) scale(1);
+      }
+    }
+}
