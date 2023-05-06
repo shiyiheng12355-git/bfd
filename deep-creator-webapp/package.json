@@ -50,7 +50,7 @@
     "omit.js": "^1.0.0",
     "path-to-regexp": "^2.1.0",
     "prop-types": "^15.5.10",
-    "qs": "^6.5.0",
+    "qs": "^6.5.3",
     "rc-drawer-menu": "^0.5.0",
     "rc-queue-anim": "^1.6.8",
     "rc-texty": "^0.2.0",
